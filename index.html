@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>#035 - Profile Card Design</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container   mt-5">
+        <div class="d-flex justify-content-center ">
+          
+            <form id="form">
+                <div class="searchbar">
+                    <input id="input" class="search_input" type="text" name="" placeholder="Search...">
+                    <button type="submit" href="#" class="search_icon"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+           
+        </div>
+        <div class="text-center  msg-box">
+            <p  id="msg"></p>
+        </div>
+      
+    </div>
+    <div class="card-container">
+        <div class="row">
+            <div class="col-lg-6  offset-lg-3">
+                <span class="pro">Github </span>
+                <img id="img" src="img/user.png" alt="user" />
+                <h3 id="name">Github User Name</h3>
+                <h6 id="location">User Location</h6>
+                <p id="bio">User Bio data text </p>
+                <div class="buttons">
+                    <button id="follower" class="primary">
+                        Follwers
+                    </button>
+                    <button id="following" class="primary ghost">
+                        Following
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="skills">
+                    <h6  id="repocount">Github Reposotory </h6>
+                    <ul class="repo-list">
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
